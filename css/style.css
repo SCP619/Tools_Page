@@ -1,0 +1,232 @@
+body {
+  color: #df5823;
+  font-family: 'Mukta', sans-serif;
+  margin: 0%;
+}
+
+.page-header {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 8%;
+}
+
+.section-header {
+  text-align: center;
+  color: #df5823;
+  font-size: 40px;
+  padding-top: 5%;
+
+}
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  border: 1px solid #ac633a;
+  background-color: #ac633a;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #f44336;
+  color: black;
+}
+
+
+
+.quote-section {
+  padding: 50px 0;
+}
+
+.quote-buttons {
+  display: flex;
+  margin-top: 400px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.quote-box {
+  display: flex;
+
+
+
+
+}
+
+.green {
+  font-size: 2.5rem;
+  font-family: 'Yellowtail', cursive;
+  color: #95CD41;
+  border: 5px solid #95CD41;
+  background-color: #36AE7C;
+
+}
+
+.blue {
+  font-size: 2.7rem;
+  color: #DBDFFD;
+  font-family: 'Permanent Marker', cursive;
+  border: 5px solid #34B3F1;
+  background-color: #371B58;
+
+}
+
+.yellow {
+
+  font-size: 2.8rem;
+  color: #000000;
+  font-family: 'Great Vibes', cursive;
+  border: 5px solid #FFC93C;
+  background-color: #FAF4B7;
+
+}
+
+.magenta {
+  font-size: 3rem;
+  color: #781D42;
+  font-family: 'Caveat', cursive;
+  border: 5px solid #781D42;
+  background-color: wheat;
+
+}
+
+.quote {
+
+  padding: 5% 5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.grid-container>div {
+  text-align: center;
+  font-size: 30px;
+}
+
+.blue-button {
+  padding: 20px;
+
+  border-radius: 100%;
+  background-color: #1F4690;
+}
+
+.green-button {
+  padding: 20px;
+  border-radius: 100%;
+  background-color: #95CD41;
+}
+
+.yellow-button {
+  padding: 20px;
+  border-radius: 100%;
+  background-color: #FFC93C;
+}
+
+.magenta-button {
+  padding: 20px;
+  border-radius: 100%;
+  background-color: #781D42;
+}
+
+button {
+  padding: 0 0;
+}
+
+.converter {
+  height: 30%;
+  border: 3px solid #df5823;
+  padding: 50px;
+  font-family: 'Lobster', cursive;
+  background-color: wheat;
+  /* margin: 0% 40%; */
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputbox {
+  width: 45%;
+}
+
+
+.calculator {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #df5823;
+  background-color: wheat;
+  width: fit-content;
+  font-size: 1.3rem;
+  padding: 50px;
+
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  padding-top: 20px;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #df5823;
+  background-color: wheat;
+  width: 450px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#inputbox {
+  width: 300px;
+  height: 200px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin: 30px;
+  background-color: white;
+}
+
+.button__wrapper {
+
+  margin: 20px 60px;
+
+}
+
+.button__wrapper button {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid #AEDBCE;
+  color: #68A1BF;
+  margin: 2px;
+  margin-left: 20px;
+}
+
+.button__wrapper button:hover {
+  background-color: #f44336;
+  color: black;
+}

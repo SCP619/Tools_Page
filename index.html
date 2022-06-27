@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Great+Vibes&family=Mukta&family=Permanent+Marker&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="quote-section">
+        <div class="quote-buttons">
+            <div class="quote-box">
+                <div class="quote magenta">
+                    <span class="quotes"></span>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="grid-container">
+                    <button class="blue-button">
+                    </button>
+                    <button class="green-button">
+
+                    </button>
+                    <button class="yellow-button">
+                    </button>
+                    <button class="magenta-button">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+    <script src="js/quotes.js"></script>
+    <div class="first-section">
+        <div class="topnav">
+            <a href="https://scp619.github.io/Introduction-Page/">Home</a>
+            <a href="#converter-section">Converter</a>
+            <a href="#calculator-section">Calculator</a>
+            <a href="#magicbox-section">MagicBox</a>
+
+        </div>
+    </div>
+
+    <section class="converter-section" id="converter-section">
+        <h2 class="section-header">Converter</h2>
+        <div class="converter">
+
+
+
+            <input type="text" placeholder="Give your input" id="input" class="inputbox">
+            <br>
+            <select id="convType" class="options">
+                <option value="kilo-pound">Kilogram to Pound</option>
+                <option value="pound-kilo">Pound to Kilogram</option>
+            </select>
+            <p>=</p>
+            <input type="text " placeholder="Result" id="result" class="inputbox" style="text-align: center;" readonly>
+
+
+
+        </div>
+    </section>
+
+    <section class="calculator-section" id="calculator-section">
+        <h2 class="section-header">Calculator</h2>
+        <div class="calculator">
+
+
+            <div style="padding: 30px 0px; ">
+                <label for="input" style="font-size: 1.5rem;"><strong> Series of number: </strong>
+                </label>
+                <input type="text" name="input" id="number" />
+            </div>
+            <div class="flex">
+                <p>Maximum:</p>
+            </div>
+            <div class="flex">
+                <p class="max">0</p>
+            </div>
+            <div class="flex">
+                <p>Minimum:</p>
+            </div>
+            <div class="flex">
+                <p class="min">0</p>
+            </div>
+            <div class="flex">
+                <p>Summation:</p>
+            </div>
+            <div class="flex">
+                <p class="sum">0</p>
+            </div>
+            <div class="flex">
+                <p>Average:</p>
+            </div>
+            <div class="flex">
+                <p class="avg">0</p>
+            </div>
+            <div class="flex">
+                <p>Reverse Order:</p>
+            </div>
+            <div class="flex">
+                <p class="reverse">0</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="magicbox-section" id="magicbox-section">
+        <h2 class="section-header">Magic Box</h2>
+        <div class="container">
+
+            <textarea name="" id="inputbox"></textarea>
+            <div class="button__wrapper">
+                <button class="clear btt">Clear it</button>
+                <button class="capitalize btt">Capitalize</button>
+                <button class="sort btt">Sort</button>
+                <button class="reve btt">Reverse</button>
+                <button class="strip_blank btt">Strip Blank</button>
+                <button class="add_numbers btt">Add Numbers</button>
+                <button class="shuffle btt">Shuffle</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
