@@ -7,15 +7,23 @@ body {
 .page-header {
   text-align: center;
   font-size: 4rem;
-  padding-top: 8%;
+  /* padding-top: 8%; */
+}
+
+.quote-section h1 {
+  text-align: center;
+  color: #df5823;
+  font-size: 45px;
+  padding-top: 5%;
+  margin-top: 250px;
 }
 
 .section-header {
   text-align: center;
   color: #df5823;
-  font-size: 40px;
+  font-size: 45px;
   padding-top: 5%;
-
+  display: block;
 }
 
 .topnav {
@@ -45,7 +53,8 @@ body {
 
 
 .quote-section {
-  padding: 50px 0;
+  padding: 0%;
+  margin-top: -250px;
 }
 
 .quote-buttons {
@@ -102,8 +111,9 @@ body {
 }
 
 .quote {
-
-  padding: 5% 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2% 2%;
 }
 
 .grid-container {
@@ -230,3 +240,7 @@ button {
   background-color: #f44336;
   color: black;
 }
+
+/* .footer {
+  top: 1%
+} */

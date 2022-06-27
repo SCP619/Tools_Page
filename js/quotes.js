@@ -1,9 +1,9 @@
 
 
-const sentence = ["Be yourself; everyone else is already taken.",
-    "Be the change that you wish to see in the world.",
-    "A friend is someone who knows all about you and still loves you.",
-    "It is better to be hated for what you are than to be loved for what you are not."
+const sentence = ["Life is a dream for the wise, a game for the fool, a comedy for the rich, a tragedy for the poor.",
+    "When one door closes, another opens; but we often look so long and so regretfully upon the closed door that we do not see the one that has opened for us.",
+    "Happy is the man who can make a living by his hobby.",
+    "Live as if you were to die tomorrow. Learn as if you were to live forever."
 ]
 
 
