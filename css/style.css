@@ -59,7 +59,7 @@ body {
 
 .quote-buttons {
   display: flex;
-  margin-top: 400px;
+/*   margin-top: 400px; */
   justify-content: center;
   flex-wrap: wrap;
 
